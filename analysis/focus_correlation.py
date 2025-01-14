@@ -5,7 +5,7 @@ import pandas as pd
 conn = psycopg2.connect(
     dbname="covid19",
     user="postgres",
-    password="SupersaiyaN117",  # Replace with your password
+    password="SupersaiyaN117",  
     host="localhost",
     port="5432"
 )
